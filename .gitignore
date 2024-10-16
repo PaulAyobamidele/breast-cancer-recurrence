@@ -1,0 +1,30 @@
+# Ignore Python bytecode and Jupyter notebook checkpoints
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Ignore all CSV files
+*.csv
+
+# Ignore specific file types
+*.log
+*.tmp
+*.docx
+
+# Ignore a specific file
+knn.py
+
+# Ignore directory
+/plots
+/.ipynb_checkpoints
+
+# Ignore files related to operating systems and environments
+.DS_Store  # macOS
+Thumbs.db  # Windows
+*.env  # Environment files
+
+# Ignore virtual environment folder
+venv/
+
+# Ignore specific notebook file
+Untitled.ipynb
